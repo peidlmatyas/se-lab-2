@@ -50,7 +50,7 @@ public class GT4500 implements SpaceShip {
 <span class="fc bfc" id="L50" title="All 2 branches covered.">          if (! secondaryTorpedoStore.isEmpty()) {</span>
 <span class="fc" id="L51">            firingSuccess = secondaryTorpedoStore.fire(1);</span>
 <span class="fc" id="L52">            wasPrimaryFiredLast = false;</span>
-          }
+<span class="fc" id="L53">          }</span>
           else {
             // although primary was fired last time, but the secondary is empty
             // thus try to fire primary again
@@ -61,17 +61,17 @@ public class GT4500 implements SpaceShip {
 
             // if both of the stores are empty, nothing can be done, return failure
           }
-        }
+<span class="fc" id="L64">        }</span>
         else {
           // try to fire the primary first
 <span class="fc bfc" id="L67" title="All 2 branches covered.">          if (! primaryTorpedoStore.isEmpty()) {</span>
 <span class="fc" id="L68">            firingSuccess = primaryTorpedoStore.fire(1);</span>
 <span class="fc" id="L69">            wasPrimaryFiredLast = true;</span>
-          }
+<span class="fc" id="L70">          }</span>
           else {
             // although secondary was fired last time, but primary is empty
             // thus try to fire secondary again
-<span class="pc bpc" id="L74" title="1 of 2 branches missed.">            if (! secondaryTorpedoStore.isEmpty()) {</span>
+<span class="fc bfc" id="L74" title="All 2 branches covered.">            if (! secondaryTorpedoStore.isEmpty()) {</span>
 <span class="fc" id="L75">              firingSuccess = secondaryTorpedoStore.fire(1);</span>
 <span class="fc" id="L76">              wasPrimaryFiredLast = false;</span>
             }
@@ -79,7 +79,7 @@ public class GT4500 implements SpaceShip {
             // if both of the stores are empty, nothing can be done, return failure
           }
         }
-        break;
+<span class="fc" id="L82">        break;</span>
 
       case ALL:
         // try to fire both of the torpedo stores

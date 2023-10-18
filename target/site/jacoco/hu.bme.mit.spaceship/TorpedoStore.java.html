@@ -26,7 +26,7 @@ public class TorpedoStore {
 <span class="nc" id="L26">        FAILURE_RATE = Double.parseDouble(failureEnv);</span>
 <span class="nc" id="L27">      } catch (NumberFormatException nfe) {</span>
 <span class="nc" id="L28">        FAILURE_RATE = 0.0;</span>
-<span class="nc" id="L29">      }</span>
+      }
     }
 <span class="fc" id="L31">  }</span>
 
@@ -49,7 +49,7 @@ public class TorpedoStore {
       // successful firing
 <span class="fc" id="L50">      this.torpedoCount -= numberOfTorpedos;</span>
 <span class="fc" id="L51">      success = true;</span>
-    } else {
+<span class="fc" id="L52">    } else {</span>
       // simulated failure
 <span class="nc" id="L54">      success = false;</span>
     }

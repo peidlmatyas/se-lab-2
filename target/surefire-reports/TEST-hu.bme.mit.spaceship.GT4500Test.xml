@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="hu.bme.mit.spaceship.GT4500Test" time="0.141" tests="11" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="hu.bme.mit.spaceship.GT4500Test" time="0.135" tests="12" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\161712\AppData\Local\Temp\surefire12985934214309896345\surefirebooter11605698224724302243.jar C:\Users\161712\AppData\Local\Temp\surefire12985934214309896345 2023-10-18T17-33-19_346-jvmRun1 surefire13752642238369904472tmp surefire_012818520970981844303tmp"/>
+    <property name="sun.java.command" value="C:\Users\161712\AppData\Local\Temp\surefire9412081176454396790\surefirebooter12189349052166241077.jar C:\Users\161712\AppData\Local\Temp\surefire9412081176454396790 2023-10-18T17-47-33_067-jvmRun1 surefire17992707191711696490tmp surefire_08753108118195919859tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\161712\Desktop\lab4\se-lab-2\target\test-classes;C:\Users\161712\Desktop\lab4\se-lab-2\target\classes;C:\Users\161712\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\161712\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\161712\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\161712\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\161712\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\161712\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\161712\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\161712\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\161712\.m2\repository\org\mockito\mockito-core\4.4.0\mockito-core-4.4.0.jar;C:\Users\161712\.m2\repository\net\bytebuddy\byte-buddy\1.12.8\byte-buddy-1.12.8.jar;C:\Users\161712\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.8\byte-buddy-agent-1.12.8.jar;C:\Users\161712\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\161712\AppData\Local\Temp\surefire12985934214309896345\surefirebooter11605698224724302243.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\161712\AppData\Local\Temp\surefire9412081176454396790\surefirebooter12189349052166241077.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.16.1+1-LTS"/>
@@ -62,15 +62,16 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="runCommandsFromFile_Success{File, File}[1]" classname="hu.bme.mit.spaceship.GT4500Test" time="0.063"/>
-  <testcase name="runCommandsFromFile_Success{File, File}[2]" classname="hu.bme.mit.spaceship.GT4500Test" time="0"/>
-  <testcase name="runCommandsFromFile_Success{File, File}[3]" classname="hu.bme.mit.spaceship.GT4500Test" time="0"/>
-  <testcase name="runCommandsFromFile_Success{File, File}[4]" classname="hu.bme.mit.spaceship.GT4500Test" time="0.015"/>
-  <testcase name="runCommandsFromFile_Success{File, File}[5]" classname="hu.bme.mit.spaceship.GT4500Test" time="0"/>
-  <testcase name="runCommandsFromFile_Success{File, File}[6]" classname="hu.bme.mit.spaceship.GT4500Test" time="0"/>
-  <testcase name="runCommandsFromFile_Success{File, File}[7]" classname="hu.bme.mit.spaceship.GT4500Test" time="0"/>
-  <testcase name="runCommandsFromFile_Success{File, File}[8]" classname="hu.bme.mit.spaceship.GT4500Test" time="0"/>
-  <testcase name="runCommandsFromFile_Success{File, File}[9]" classname="hu.bme.mit.spaceship.GT4500Test" time="0"/>
-  <testcase name="fireTorpedo_Single_Success" classname="hu.bme.mit.spaceship.GT4500Test" time="0.016"/>
+  <testcase name="runCommandsFromFile_Success{File, File}[1]" classname="hu.bme.mit.spaceship.GT4500Test" time="0.065"/>
+  <testcase name="runCommandsFromFile_Success{File, File}[2]" classname="hu.bme.mit.spaceship.GT4500Test" time="0.002"/>
+  <testcase name="runCommandsFromFile_Success{File, File}[3]" classname="hu.bme.mit.spaceship.GT4500Test" time="0.002"/>
+  <testcase name="runCommandsFromFile_Success{File, File}[4]" classname="hu.bme.mit.spaceship.GT4500Test" time="0.001"/>
+  <testcase name="runCommandsFromFile_Success{File, File}[5]" classname="hu.bme.mit.spaceship.GT4500Test" time="0.002"/>
+  <testcase name="runCommandsFromFile_Success{File, File}[6]" classname="hu.bme.mit.spaceship.GT4500Test" time="0.002"/>
+  <testcase name="runCommandsFromFile_Success{File, File}[7]" classname="hu.bme.mit.spaceship.GT4500Test" time="0.001"/>
+  <testcase name="runCommandsFromFile_Success{File, File}[8]" classname="hu.bme.mit.spaceship.GT4500Test" time="0.002"/>
+  <testcase name="runCommandsFromFile_Success{File, File}[9]" classname="hu.bme.mit.spaceship.GT4500Test" time="0.001"/>
+  <testcase name="runCommandsFromFile_Success{File, File}[10]" classname="hu.bme.mit.spaceship.GT4500Test" time="0.002"/>
+  <testcase name="fireTorpedo_Single_Success" classname="hu.bme.mit.spaceship.GT4500Test" time="0.001"/>
   <testcase name="fireTorpedo_All_Success" classname="hu.bme.mit.spaceship.GT4500Test" time="0"/>
 </testsuite>
